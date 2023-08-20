@@ -23,3 +23,21 @@ code {
 .urua-text {
   color: #F46C48;
 }
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 999;
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+}

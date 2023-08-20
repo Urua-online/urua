@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 export const Footer = () => {
   return (
     <>
-      <section className='px-12 pt-12 pb-4'>
+      <section className='px-6 md:px-12 pt-6 md:pt-12 pb-4'>
         <div>
-          <div className='grid grid-cols-4'>
+          <div className='md:grid md:grid-cols-2 lg:grid-cols-4'>
             <div>
               <img src={footer} alt="" />
             </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
                 <li><Link>support@urua.com</Link></li>
               </ul>
             </div>
-            <div className='flex justify-center items-center gap-4'>
+            <div className='flex justify-start lg:justify-center items-center gap-4 mt-6'>
               <AiFillFacebook className='text-2xl' />
               <AiFillLinkedin className='text-2xl' />
               <AiFillTwitterSquare className='text-2xl' />
