@@ -14,7 +14,7 @@ export const Navbar = () => {
   }
 
   return (
-    <section className='px-6 md:px-12 py-8'>
+    <section className='px-6 md:px-12 py-8 sticky top-0 bg-white z-50'>
       <header className="flex items-center justify-between">
         <div className='flex items-center justify-center gap-5'>
           <img src={logo1} alt="" />

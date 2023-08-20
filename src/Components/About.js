@@ -65,7 +65,7 @@ export const About = () => {
             <div className='bg-white rounded-lg px-4 lg:px-8 py-8'>
               <img src={illustration3} alt="" />
               <h5 className='text-lg font-bold urua-text my-4'>1. BUY</h5>
-              <p>Urua, the ultimate platform that connects you with a world of opportunities and eager customers. Take your business to new heights and tap into a larger market? </p>
+              <p>Urua, the ultimate platform that connects you with a world of opportunities and eager customers. Take your business to new heights and tap into a larger market</p>
             </div>
             <div className='bg-white rounded-lg px-4 lg:px-8 py-8'>
               <img src={illustration4} alt="" />

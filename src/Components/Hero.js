@@ -7,9 +7,9 @@ import dots from '../Assets/dots.png'
 
 export const Hero = () => {
   return (
-    <section className='flex flex-col-reverse md:grid grid-cols-2 pt-4'>
+    <section className='md:flex md:grid grid-cols-2 pt-4'>
       <div className='urua text-white rounded-br-3xl flex flex-col justify-center pt-16'>
-          <p className='px-12 text-3xl'>Shop with us</p>
+          <p className='px-12 text-5xl'>Shop with us</p>
 
           <div className='rounded-br-3xl bg-white text-black p-4 lg:px-12 h-36 flex flex-col justify-center mt-4 mb-8'>
             <p className='lg:text-lg font-semibold'>Our all-in-one shopping destination - Urua, designed to be your virtual supermarket, offering an unparalleled variety of items that cater to your every need and desire.</p>
