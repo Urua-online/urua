@@ -16,15 +16,15 @@ export const Navbar = () => {
   return (
     <section className='px-6 md:px-12 py-8 sticky top-0 bg-white z-50'>
       <header className="flex items-center justify-between">
-        <div className='flex items-center justify-center gap-5'>
+        <div className='flex items-center justify-center gap-2'>
           <img src={logo1} alt="" />
-          <Link to='/'><img src={logo2} alt="" /></Link>
+          <Link to='/'><img src={logo2} alt="" className='w-3/4 pt-1'/></Link>
         </div>
 
         <nav className='flex flex-col md:flex-row items-center justify-center gap-8' ref={navRef}>
-          <div className='flex items-center justify-center gap-5 absolute top-8 left-6 md:hidden'>
+          <div className='flex items-center justify-center gap-2 absolute top-8 left-6 md:hidden'>
             <img src={logo1} alt="" />
-            <Link to='/'><img src={logo2} alt="" /></Link>
+            <Link to='/'><img src={logo2} alt="" className='w-3/4 pt-1'/></Link>
           </div>
           
           <ul className='flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8'>
