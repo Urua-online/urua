@@ -35,7 +35,7 @@ export const FAQ = () => {
       </section>
 
       <section className='py-8 md:grid grid-cols-2'>
-        <div className='urua text-white rounded-br-3xl p-12 flex flex-col justify-center items-center h-60 md:h-96 relative'>
+        <div className='urua text-white rounded-br-3xl p-12 flex flex-col justify-center items-center h-60 md:h-80 relative'>
           <div>
             <p className='text-5xl font-semibold'>Join Us Today</p>
           </div>

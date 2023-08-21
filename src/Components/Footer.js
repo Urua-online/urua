@@ -1,8 +1,8 @@
 import React from 'react'
 import footer from '../Assets/footer-logo.png'
-import { AiFillFacebook, AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai'
+import { AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
-
+import twitter from '../Assets/twitter.svg'
 
 export const Footer = () => {
   return (
@@ -28,7 +28,7 @@ export const Footer = () => {
             <div className='flex justify-start lg:justify-center items-center gap-4 mt-6'>
               <AiFillFacebook className='text-2xl' />
               <AiFillLinkedin className='text-2xl' />
-              <AiFillTwitterSquare className='text-2xl' />
+              <img src={twitter} alt=''/>
               <AiFillInstagram className='text-2xl' />
             </div>
           </div>
