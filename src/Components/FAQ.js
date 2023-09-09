@@ -47,14 +47,14 @@ export const FAQ = () => {
           <p className='text-lg font-semibold urua-text'>Download URUA now and step into a world where convenience meets variety. Embrace the freedom to shop for groceries, electronics, fashion, and so much more, all from the comfort of your own space.</p>
 
           <div className='flex flex-col lg:flex-row items-center justify-center gap-4 my-8'>
-            <div className='flex items-center justify-center gap-5 bg-slate-900 rounded text-slate-200 px-5 py-1 w-full'>
+            <div className='flex items-center justify-center gap-5 bg-slate-900 rounded text-slate-200 px-5 py-1'>
               <FcGoogle className='text-2xl' />
               <div>
                 <p className='text-sm'>GET IT ON</p>
                 <p className='text-xs'>Google Play</p>
               </div>
             </div>
-            <div className='flex items-center justify-center gap-5 bg-slate-900 rounded text-slate-200 px-5 py-1 w-full'>
+            <div className='flex items-center justify-center gap-5 bg-slate-900 rounded text-slate-200 px-5 py-1'>
               <AiOutlineApple className='text-3xl' />
               <div>
                 <p className='text-sm'>GET IT ON</p>
