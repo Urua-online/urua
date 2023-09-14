@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Jost', sans-serif;
+  font-family: 'Sora', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,12 +16,21 @@ code {
     monospace;
 }
 
+
+.second-background{
+  background-color: #FFEAE2
+}
+
 .urua {
   background-color: #F46C48;
 }
 
 .urua-text {
   color: #F46C48;
+}
+
+.urua-border{
+  border-color: #F46C48;
 }
 
 @media only screen and (max-width: 1024px) {

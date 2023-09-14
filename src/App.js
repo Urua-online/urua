@@ -5,9 +5,11 @@ import { LandingPage } from "./Pages/LandingPage";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy";
 import { TermsAndConditions } from "./Pages/TermsAndConditions";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import React from 'react'
 
 
 function App() {
+
   return (
     <>
       <BrowserRouter>

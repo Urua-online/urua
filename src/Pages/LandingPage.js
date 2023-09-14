@@ -5,12 +5,12 @@ import { About } from '../Components/About'
 import { FAQ } from '../Components/FAQ'
 import { Footer } from '../Components/Footer'
 
-
 export const LandingPage = () => {
+
   return (
     <>
-          <Navbar/>   
-          <Hero/>
+          <Navbar />   
+          <Hero />
           <About/>
           <FAQ/>
           <Footer/>

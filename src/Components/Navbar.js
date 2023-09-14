@@ -1,4 +1,4 @@
-import { React, useRef } from 'react'
+import React, { useRef } from 'react'
 import logo1 from '../Assets/logo.png'
 import logo2 from '../Assets/logo2.png'
 import { Link } from 'react-router-dom'
@@ -8,13 +8,12 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 export const Navbar = () => {
 
   const navRef = useRef()
-
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav")
   }
 
   return (
-    <section className='px-6 md:px-12 py-4 sticky top-0 bg-white z-50'>
+    <section className='px-6 md:px-12 py-4 sticky top-0 second-background z-50 '>
       <header className="flex items-center justify-between">
         <div className='flex items-center justify-center gap-2'>
           <img src={logo1} alt="" />
@@ -35,12 +34,12 @@ export const Navbar = () => {
           <button className='urua text-white px-6 py-1 rounded-br-md'>Shop Now</button>
 
           <div>
-            <button onClick={showNavbar} className='nav-btn nav-close-btn lg:hidden '><FaTimes className='text-2xl absolute top-10 right-6'/> </button>
+            <button onClick={showNavbar} className='nav-btn nav-close-btn lg:hidden '><FaTimes className='text-2xl absolute top-10 right-6 urua-text'/> </button>
           </div>
         </nav>
 
         <div className='lg:hidden '>
-          <button onClick={showNavbar} className='nav-btn'><FaBars className='text-2xl' /></button>
+          <button onClick={showNavbar} className='nav-btn'><FaBars className='text-2xl urua-text' /></button>
         </div>
       </header>
     </section>
