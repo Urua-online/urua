@@ -10,9 +10,9 @@ import 'aos/dist/aos.css'
 
 export const About = () => {
 
-  useEffect(()=> {
-    AOS.init({duration:3000})
-}, [])
+  useEffect(() => {
+    AOS.init({ duration: 3000 })
+  }, [])
 
   return (
     <>
@@ -21,7 +21,7 @@ export const About = () => {
         {/* MISSION DIV  */}
         <div className='flex flex-col flex-col-reverse gap-4 md:grid grid-cols-2 items-center justify-center'>
           <div className='flex justify-center' >
-            <img src={illustration2} alt="" className='py-8 h-80 md:h-full' data-aos="fade-up"/>
+            <img src={illustration2} alt="" className='py-8 h-80 md:h-full' data-aos="fade-up" />
           </div>
 
           <div className='flex flex-col justify-start p-8'>
@@ -38,7 +38,7 @@ export const About = () => {
           </div>
 
           <div className='' >
-            <img src={illustration1} alt="" className='py-16 h-96 md:h-full' data-aos="fade-up"/>
+            <img src={illustration1} alt="" className='py-16 h-96 md:h-full' data-aos="fade-up" />
           </div>
         </div>
         <Announcement />
@@ -65,22 +65,22 @@ export const About = () => {
           <div className='flex flex-col md:grid grid-cols-3 gap-4'>
             <div className='second-background rounded-lg px-4 lg:px-8 py-8'>
               <div className='flex items-center justify-center'>
-                <img src={illustration3} alt="" className='w-40' data-aos="fade-up"/>
+                <img src={illustration3} alt="" className='w-40' data-aos="fade-up" />
               </div>
               <h5 className='text-lg font-bold urua-text my-4'>1. BUY</h5>
-              <p>Urua, the ultimate platform that connects you with a world of opportunities and eager customers. Take your business to new heights and tap into a larger market</p>
+              <p>Shop with confidence, knowing that your transactions are secure and your privacy is respected.</p>
             </div>
 
             <div className='second-background rounded-lg px-4 lg:px-8 py-8'>
               <div className='flex items-center justify-center'>
-                <img src={illustration4} alt="" className='h-60' data-aos="fade-up"/>
+                <img src={illustration4} alt="" className='h-60' data-aos="fade-up" />
               </div>
               <h5 className='text-lg font-bold urua-text my-4'>2. SELL</h5>
-              <p>Shop with confidence, knowing that your transactions are secure and your privacy is respected.</p>
+              <p>Urua, the ultimate platform that connects you with a world of opportunities and eager customers. Take your business to new heights and tap into a larger market</p>
             </div>
             <div className='second-background rounded-lg px-4 lg:px-8 py-8'>
               <div className='flex items-center justify-center'>
-                <img src={illustration5} alt="" className='h-60' data-aos="fade-up"/>
+                <img src={illustration5} alt="" className='h-60' data-aos="fade-up" />
               </div>
               <h5 className='text-lg font-bold urua-text my-4'>3. DELIVER</h5>
               <p>Join our app and get connected to a bustling marketplace brimming with customers eager to have their packages delivered reliably and efficiently.</p>
