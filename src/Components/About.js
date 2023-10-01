@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import illustration1 from '../Assets/image-1.webp'
-import illustration2 from '../Assets/image-3.webp'
+import illustration1 from '../Assets/man.webp'
+import illustration2 from '../Assets/lady.webp'
 import illustration3 from '../Assets/Cart.webp'
 import illustration4 from '../Assets/Coin.webp'
 import illustration5 from '../Assets/6.webp'
@@ -16,12 +16,11 @@ export const About = () => {
 
   return (
     <>
-      <section className='' id='about'>
-
+      <section className='max-w-7xl mx-auto' id='about'>
         {/* MISSION DIV  */}
         <div className='flex flex-col flex-col-reverse gap-4 md:grid grid-cols-2 items-center justify-center'>
-          <div className='flex justify-center' >
-            <img src={illustration2} alt="" className='py-8 h-80 md:h-full' data-aos="fade-up" />
+          <div className='flex items-center justify-center' >
+            <img src={illustration2} alt="" className='py-8 w-80 md:w-3/4' data-aos="fade-up" />
           </div>
 
           <div className='flex flex-col justify-start p-8'>
@@ -37,8 +36,8 @@ export const About = () => {
             <p className='text-lg'>To build the world’s most exclusive digital market platform where people (vendors and consumers) can buy goods and services at the comfort of their homes.</p>
           </div>
 
-          <div className='' >
-            <img src={illustration1} alt="" className='py-16 h-96 md:h-full' data-aos="fade-up" />
+          <div className='flex items-center justify-center' >
+            <img src={illustration1} alt="" className='py-16 w-80 md:w-3/4' data-aos="fade-up" />
           </div>
         </div>
         <Announcement />
@@ -50,7 +49,7 @@ export const About = () => {
             <h3 className='text-4xl font-semibold urua-text mb-6'>Bringing to you the best shopping experience</h3>
             <p className='text-lg'>Urua's intuitive interface allows you to effortlessly navigate through categories, filter by preferences, and discover new products that match your interests. Enhance your shopping experience with Urua.</p>
             <div>
-              <button className='text-white px-8 py-2 rounded-br-md urua'>Start Shopping!</button>
+              <button className='text-white px-8 py-2 rounded-br-md urua'><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqKhKRKz2ooNXORdZ7kaQt1LNtSH749_N29YoAUzKNQq_RJA/viewform?usp=sf_link">Start Shopping!</a></button>
             </div>
           </div>
         </div>

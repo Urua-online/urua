@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import logo1 from '../Assets/logo.png'
-import logo2 from '../Assets/logo2.png'
+import logo2 from '../Assets/urua.webp'
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import { FaBars, FaTimes } from 'react-icons/fa'
@@ -13,11 +13,11 @@ export const Navbar = () => {
   }
 
   return (
-    <section className='px-6 md:px-12 py-4 sticky top-0 second-background z-50 '>
+    <section className='px-6 md:px-12 py-4 sticky top-0 second-background z-50 max-w-7xl mx-auto'>
       <header className="flex items-center justify-between">
         <div className='flex items-center justify-center gap-2'>
           <img src={logo1} alt="" />
-          <Link to='/'><img src={logo2} alt="" className='w-3/4 pt-1'/></Link>
+          <Link to='/'><img src={logo2} alt="" className='w-16 pt-1'/></Link>
         </div>
 
         <nav className='flex flex-col md:flex-row items-center justify-center gap-8' ref={navRef}>
@@ -31,7 +31,7 @@ export const Navbar = () => {
             <li className='hover:text-red-500'><HashLink to='#about'>About</HashLink></li>
             <li className='hover:text-red-500'><HashLink to='#FAQ'>FAQs</HashLink></li>
           </ul>
-          <button className='urua text-white px-6 py-1 rounded-br-md'>Shop Now</button>
+          <button className='urua text-white px-6 py-1 rounded-br-md'><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqKhKRKz2ooNXORdZ7kaQt1LNtSH749_N29YoAUzKNQq_RJA/viewform?usp=sf_link">Shop Now</a></button>
 
           <div>
             <button onClick={showNavbar} className='nav-btn nav-close-btn lg:hidden '><FaTimes className='text-2xl absolute top-10 right-6 urua-text'/> </button>

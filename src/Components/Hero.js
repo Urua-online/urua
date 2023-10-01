@@ -8,9 +8,9 @@ export const Hero = () => {
   useEffect(()=> {
     AOS.init({duration:3000})
 }, [])
-
+ 
   return (
-    <section className='flex flex-col justify-center items-center gap-8 lg:grid grid-cols-2 second-background h-screen border-t border-xl border-red-500'>
+    <section className='flex flex-col justify-center items-center gap-8 lg:grid grid-cols-2 second-background h-screen border-t border-xl border-red-500 max-w-7xl mx-auto'>
       <div className='flex flex-col justify-center items-center'>
         <div className='flex items-center justify-center text-center p-2'>
           <h1 className='text-3xl md:text-5xl font-bold' >Improve your shopping <span className='urua-text'>experience</span> with<span className='urua-text'> - Urua</span></h1>
@@ -22,9 +22,8 @@ export const Hero = () => {
         </div>
 
         <div className='px-4 lg:px-12 flex flex-col md:flex-row gap-4 lg:gap-8'>
-          <button className='urua text-white px-8 py-2 rounded-br-md'>Start Shopping!</button>
-          <button className='urua-border px-8 py-2 border urua-text rounded-br-md'>Join Waitlist</button>
-        </div>
+          <button className='urua text-white px-8 py-2 rounded-br-md'><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqKhKRKz2ooNXORdZ7kaQt1LNtSH749_N29YoAUzKNQq_RJA/viewform?usp=sf_link">Start Shopping!</a></button>
+          <button className='urua-border px-8 py-2 border urua-text rounded-br-md'><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqKhKRKz2ooNXORdZ7kaQt1LNtSH749_N29YoAUzKNQq_RJA/viewform?usp=sf_link">Join Waitlist</a></button>        </div>
       </div>
 
       <div className=' h-1/3 flex justify-center items-center'>

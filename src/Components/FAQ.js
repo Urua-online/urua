@@ -31,7 +31,7 @@ const questionaire = [
 export const FAQ = () => {
   return (
     <>
-      <section className='px-6 md:px-12 py-8' id='FAQ'>
+      <section className='px-6 md:px-12 py-8 max-w-7xl mx-auto' id='FAQ'>
         <div className='text-center lg:px-40'>
           <h3 className='text-3xl urua-text'>Frequently Asked Questions</h3>
           <p className='py-8'>Dui risus lacinia gravida morbi malesuada malesuada metus ut. Ultrices in ac nisl nibh purus. Cursus volutpat neque cursus arcu elit tempor arcu orci.</p>
@@ -55,7 +55,7 @@ export const FAQ = () => {
         </div>
       </section>
 
-      <section className='md:grid grid-cols-2 second-background'>
+      <section className='md:grid grid-cols-2 second-background max-w-7xl mx-auto'>
         <div className='urua text-white rounded-br-3xl p-12 flex flex-col justify-center items-center h-60 md:h-80'>
           <div>
             <p className='text-5xl font-semibold'>Join Us Today</p>

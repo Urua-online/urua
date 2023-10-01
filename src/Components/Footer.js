@@ -7,7 +7,7 @@ import twitter from '../Assets/twitter.svg'
 export const Footer = () => {
   return (
     <>
-      <section className='px-6 md:px-12 pt-6 md:pt-12 pb-4 second-background'>
+      <section className='px-6 md:px-12 pt-6 md:pt-12 pb-4 second-background max-w-7xl mx-auto'>
         <div>
           <div className='md:grid md:grid-cols-2 lg:grid-cols-4'>
             <div>
