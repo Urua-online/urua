@@ -16,7 +16,7 @@ export const About = () => {
 
   return (
     <>
-      <section className='max-w-7xl mx-auto' id='about'>
+      <section className='max-w-7xl mx-auto bg-white' id='about'>
         {/* MISSION DIV  */}
         <div className='flex flex-col flex-col-reverse gap-4 md:grid grid-cols-2 items-center justify-center'>
           <div className='flex items-center justify-center' >

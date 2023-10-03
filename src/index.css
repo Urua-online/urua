@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+#root {
+  background: #FFEAE2;
+
+}
 
 .second-background{
   background-color: #FFEAE2

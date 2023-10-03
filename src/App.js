@@ -4,7 +4,6 @@ import ScrollToTop from "./Components/ScrollToTop";
 import { LandingPage } from "./Pages/LandingPage";
 import { PrivacyPolicy } from "./Pages/PrivacyPolicy";
 import { TermsAndConditions } from "./Pages/TermsAndConditions";
-import { WaitlistForm } from "./Components/WaitlistForm";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import React from 'react'
 
@@ -19,7 +18,6 @@ function App() {
               <Route path='/' element={<LandingPage />} />
               <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
               <Route path='/privacy-policy' element={<PrivacyPolicy />} />
-              <Route path='/waitlist-form' element={<WaitlistForm />} />
               <Route path='#about' element={<About/>} />
               <Route path='#FAQ' element={<FAQ/>} />
             </Routes>
