@@ -26,10 +26,10 @@ export const Footer = () => {
               </ul>
             </div>
             <div className='flex justify-start lg:justify-center items-center gap-4 mt-6'>
-              <AiFillFacebook className='text-2xl' />
-              <AiFillLinkedin className='text-2xl' />
-              <img src={twitter} alt=''/>
-              <AiFillInstagram className='text-2xl' />
+              <a href="https://m.facebook.com/profile.php/?id=61552262876224" target='_blank' rel='noreferrer'> <AiFillFacebook className='text-2xl' /></a>
+              <a href="https://www.linkedin.com/company/urua-technologies/" target='_blank' rel='noreferrer'><AiFillLinkedin className='text-2xl' /> </a>
+              <a href="https://twitter.com/uruatechnology" target='_blank' rel='noreferrer'><img src={twitter} alt=''/></a>
+              <a href="https://www.instagram.com/urua_technology" target='_blank' rel='noreferrer'><AiFillInstagram className='text-2xl' /></a>
             </div>
           </div>
 
