@@ -15,7 +15,7 @@ export const Footer = () => {
             </div>
             <div>
               <ul className='font-semibold text-slate-500'>
-                <li><Link to="terms-and-conditions">Terms and Conditions</Link></li>
+                <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
                 <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               </ul>
             </div>
