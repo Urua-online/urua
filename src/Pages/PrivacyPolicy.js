@@ -8,7 +8,7 @@ export const PrivacyPolicy = () => {
         <>
             <Navbar />
 
-            <section className='px-6 md:px-12 mb-16 mt-8'>
+            <section className='px-6 md:px-12 mb-16 mt-8 max-w-7xl'>
                 <div className='text-center'>
                     <h3 className='urua-text text-3xl font-semibold pb-4'>Privacy Policy</h3>
                 </div>

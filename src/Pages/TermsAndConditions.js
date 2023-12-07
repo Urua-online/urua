@@ -7,15 +7,16 @@ export const TermsAndConditions = () => {
     <>
       <Navbar />
 
-      <section className='px-6 md:px-12 mb-16 mt-8'>
+      <section className='px-6 md:px-12 mb-16 mt-8 w-full flex flex-col items-center'>
 
+        <div className=' max-w-7xl '>
         <div>
           <p>Welcome to URUA! The URUA service, website and/or software application (collectively, the “Service”) enables you to buy and sell goods and services at the comfort of your houses. You may also use your supported mobile money wallet, account or credit card to pay for products and services offered by third parties (“Products”). The Service is operated by Project Urua, subject to these Terms of Service (“Terms”).</p>
 
-<div className='text-center my-4'>
-<h3 className='urua-text text-3xl font-semibold py-2 px-8'>Terms of service</h3>
+          <div className='text-center my-4'>
+            <h3 className='urua-text text-3xl font-semibold py-2 px-8'>Terms of service</h3>
 
-</div>
+          </div>
 
           <div className='flex flex-col gap-4'>
             <p>
@@ -85,6 +86,7 @@ export const TermsAndConditions = () => {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </section>
 
