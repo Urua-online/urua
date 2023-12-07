@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react'
-import image2 from '../Assets/image-2.webp'
+import image2 from '../Assets/wavy.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 export const Hero = () => {
 
-  useEffect(()=> {
-    AOS.init({duration:3000})
-}, [])
- 
+  useEffect(() => {
+    AOS.init({ duration: 3000 })
+  }, [])
+
   return (
-    <section className='flex flex-col justify-center items-center gap-8 lg:grid grid-cols-2 second-background h-screen border-t border-xl border-red-500 max-w-7xl mx-auto'>
+    <section className='flex flex-col justify-center items-center gap-8 lg:grid grid-cols-2 second-background h-[800px] md:h-[600px] border-t border-xl border-red-500 max-w-7xl mx-auto'>
       <div className='flex flex-col justify-center items-center'>
-        <div className='flex items-center justify-center text-center p-2'>
+        <div className='flex items-center justify-center text-center p-2 '>
           <h1 className='text-3xl md:text-5xl font-bold' >Improve your shopping <span className='urua-text'>experience</span> with<span className='urua-text'> - Urua</span></h1>
 
         </div>
@@ -26,11 +26,11 @@ export const Hero = () => {
           <button className='urua-border px-8 py-2 border urua-text rounded-br-md'><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqKhKRKz2ooNXORdZ7kaQt1LNtSH749_N29YoAUzKNQq_RJA/viewform?usp=sf_link">Join Waitlist</a></button>        </div>
       </div>
 
-      <div className=' h-1/3 flex justify-center items-center'>
-          <div className='text-center'>
-            <img src={image2} alt="" className='h-40 md:h-full' data-aos="fade-up"/>
-          </div>
+      <div className=' flex justify-center items-center'>
+        <div className='text-center'>
+          <img src={image2} alt="" className='w-5/6 md:w-full md:h-96' data-aos="fade-up" />
         </div>
+      </div>
     </section>
   )
 }
