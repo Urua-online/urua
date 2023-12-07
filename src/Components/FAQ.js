@@ -7,25 +7,13 @@ const questionaire = [
   {
     id: 1,
     question: "What is Urua?",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis."
+    answer: "URUA service, website and/or software application is a digital marketplace where users/visitors are able to buy and sell goods and services from the comfort of your house and at the touch of a button. URUA brings the market to your personal space and takes your market to a wider audience and creates a point of convergence for business owners and customers in the digital market space."
   },
 
   {
     id: 2,
     question: "Is there a mobile app?",
-    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis."
-  },
-
-  {
-    id: 3,
-    question: "How can I request a new browser?",
-    answer: "Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum."
-  },
-
-  {
-    id: 4,
-    question: "What is Urua?",
-    answer: "Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit."
+    answer: "Yes, there URUA service has a mobile application software available for download on Goggle play store and ios store for iPhone users. The urua mobile app has an easy-to-navigate User interface and of course still performs the same function as the website."
   },
 ]
 export const FAQ = () => {
@@ -34,7 +22,7 @@ export const FAQ = () => {
       <section className='px-6 md:px-12 py-8 max-w-7xl mx-auto bg-white' id='FAQ'>
         <div className='text-center lg:px-40'>
           <h3 className='text-3xl urua-text'>Frequently Asked Questions</h3>
-          <p className='py-8'>Dui risus lacinia gravida morbi malesuada malesuada metus ut. Ultrices in ac nisl nibh purus. Cursus volutpat neque cursus arcu elit tempor arcu orci.</p>
+          <p className='py-8'>Below are most asked questions</p>
         </div>
 
         <div>
