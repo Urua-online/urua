@@ -36,7 +36,7 @@ export const Navbar = () => {
             <li className='hover:text-red-500' onClick={hideNavbar}><HashLink to='/#about' smooth>About</HashLink></li>
             <li className='hover:text-red-500' onClick={hideNavbar}><HashLink to='/#FAQ' smooth>FAQs</HashLink></li>
           </ul>
-          <button className='urua text-white px-6 py-1 rounded-br-md'><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqKhKRKz2ooNXORdZ7kaQt1LNtSH749_N29YoAUzKNQq_RJA/viewform?usp=sf_link">Shop Now</a></button>
+          <button className='urua text-white px-6 py-1 rounded-br-md'><a href="https://drive.google.com/file/d/1V4D7PY45JaRvmuqQfYbmxNIN0mTuAlbi/view?usp=sharing">Shop Now</a></button>
 
           <div>
             <button onClick={showNavbar} className='nav-btn nav-close-btn lg:hidden '><FaTimes className='text-2xl absolute top-10 right-6 urua-text'/> </button>
