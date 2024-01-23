@@ -49,7 +49,7 @@ export const About = () => {
             <h3 className='text-4xl font-semibold urua-text mb-6'>Bringing to you the best shopping experience</h3>
             <p className='text-lg'>Urua's intuitive interface allows you to effortlessly navigate through categories, filter by preferences, and discover new products that match your interests. Enhance your shopping experience with Urua.</p>
             <div>
-              <button className='text-white px-8 py-2 rounded-br-md urua'><a href="https://drive.google.com/file/d/1V4D7PY45JaRvmuqQfYbmxNIN0mTuAlbi/view?usp=sharing">Start Shopping!</a></button>
+              <button className='text-white px-8 py-2 rounded-br-md urua'><a href="https://play.google.com/store/apps/details?id=com.urua">Start Shopping!</a></button>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export const About = () => {
           </div>
 
           <div className='text-center my-8'>
-            <button className='urua text-white px-8 py-2 rounded-br-md w-1/2'><a href="https://drive.google.com/file/d/1V4D7PY45JaRvmuqQfYbmxNIN0mTuAlbi/view?usp=sharing">Get Urua</a></button>
+            <button className='urua text-white px-8 py-2 rounded-br-md w-1/2'><a href="https://play.google.com/store/apps/details?id=com.urua">Get Urua</a></button>
           </div>
         </div>
       </section>
