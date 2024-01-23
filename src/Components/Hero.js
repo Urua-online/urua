@@ -22,8 +22,8 @@ export const Hero = () => {
         </div>
 
         <div className='px-4 lg:px-12 flex flex-col md:flex-row gap-4 lg:gap-8'>
-          <button className='urua text-white px-8 py-2 rounded-br-md'><a href="https://drive.google.com/file/d/1V4D7PY45JaRvmuqQfYbmxNIN0mTuAlbi/view?usp=sharing">Start Shopping!</a></button>
-          <button className='urua-border px-8 py-2 border urua-text rounded-br-md'><a href="https://drive.google.com/file/d/1V4D7PY45JaRvmuqQfYbmxNIN0mTuAlbi/view?usp=sharing">Download Urua</a></button>        </div>
+          <button className='urua text-white px-8 py-2 rounded-br-md'><a href="https://play.google.com/store/apps/details?id=com.urua">Start Shopping!</a></button>
+          <button className='urua-border px-8 py-2 border urua-text rounded-br-md'><a href="https://play.google.com/store/apps/details?id=com.urua">Download Urua</a></button>        </div>
       </div>
 
       <div className=' flex justify-center items-center'>
