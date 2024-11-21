@@ -22,7 +22,7 @@ export const Footer = () => {
             <div>
               <ul className='font-semibold text-slate-500'>
                 <li><Link>Contact</Link></li>
-                <li><Link>support@urua.com</Link></li>
+                <li><Link>support@urua.africa</Link></li>
               </ul>
             </div>
             <div className='flex justify-start lg:justify-center items-center gap-4 mt-6'>
