@@ -80,7 +80,7 @@ export const About = () => {
 						</p>
 						<div>
 							<button className="text-white px-8 py-2 rounded-br-md urua">
-								<a href="https://play.google.com/store/apps/details?id=com.urua">
+								<a href="https://play.google.com/store/apps/details?id=com.uruaafrica">
 									Start Shopping!
 								</a>
 							</button>
@@ -152,7 +152,7 @@ export const About = () => {
 
 					<div className="text-center my-8">
 						<button className="urua text-white px-8 py-2 rounded-br-md w-1/2">
-							<a href="https://play.google.com/store/apps/details?id=com.urua">
+							<a href="https://play.google.com/store/apps/details?id=com.uruaafrica">
 								Get Urua
 							</a>
 						</button>

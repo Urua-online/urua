@@ -29,19 +29,10 @@ export const Hero = () => {
 					</p>
 				</div>
 
-				<div className="px-4 lg:px-12 flex flex-col md:flex-row gap-4 lg:gap-8">
-					<button className="urua text-white px-8 py-2 rounded-br-md">
-						<a href="https://play.google.com/store/apps/details?id=com.urua">
-							Start Shopping!
-						</a>
-					</button>
-					<button className="urua-border px-8 py-2 border urua-text rounded-br-md">
-						<a href="https://play.google.com/store/apps/details?id=com.urua">
-							Download Urua
-						</a>
-					</button>{" "}
-				</div>
-			</div>
+        <div className='px-4 lg:px-12 flex flex-col md:flex-row gap-4 lg:gap-8'>
+          <button className='urua text-white px-8 py-2 rounded-br-md'><a href="https://play.google.com/store/apps/details?id=com.uruaafrica">Start Shopping!</a></button>
+          <button className='urua-border px-8 py-2 border urua-text rounded-br-md'><a href="https://play.google.com/store/apps/details?id=com.uruaafrica">Download Urua</a></button>        </div>
+      </div>
 
 			<div className=" flex justify-center items-center">
 				<div className="text-center">

@@ -1,0 +1,15 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.uruaafrica",
+        "sha256_cert_fingerprints": [
+          "92:06:77:2F:3C:A0:69:D1:D4:9C:26:45:E3:21:BE:4A:B4:45:14:A5:22:96:B9:48:9B:8D:06:F1:BB:3F:BF:B3"
+        ]
+      }
+    }
+  ]
